@@ -1,88 +1,70 @@
-![Image description](https://i1.faceprep.in/ProGrad/prograd-logo.png)
+# Getting Started with Create React App
 
-# ProGrad Lab | REACT HOOKS - PROJOBS
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Learning Goals
+## Available Scripts
 
-In this exercise, the goal is to learn routing and hooks in react:
+In the project directory, you can run:
 
-- Axios,
-- React Hooks
-- UseState
+### `npm start`
 
-## Getting started
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-1. Fork this repo
-2. Clone this repo
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Whenever you create a first significant change, you should make your first commit.
+### `npm test`
 
-3. Follow these [guidelines to add, commit and push changes](https://github.com/FACEPrep-ProGrad/general-guidelines-labs-project-builders.git).
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-In the end of this document, you will find guidelines on how to submit the exercise.
+### `npm run build`
 
-## Instructions
-In this lab we will try to work with hooks in react. The main idea of this lab is to under react hooks in detail and also fetch data from external API, process it and display it. We have four components 
-- HomeComponent
-- SearchJobComponent - use forms
-- JobComponent - 
-- PageComponent
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-```API DETAILS
-api = "https://jobs.github.com/positions.json"
-if there is cross origin error
-use this api = "https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json"
-```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Kindly see the output:
-![Image description](https://i1.faceprep.in/ProGrad/job_4.png)
-![Image description](https://i1.faceprep.in/ProGrad/job_1.gif)
-![Image description](https://i1.faceprep.in/ProGrad/job_2-2.gif)
-![Image description](https://i1.faceprep.in/ProGrad/job_3.png)
-### PROGRESSION 1 | JOB COMPONENT
+### `npm run eject`
 
-Fetch the data from the above api in job component, pass the data to home component using props and display it in homeComponent. 
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Check the output for your reference.
-![Image description](https://i1.faceprep.in/ProGrad/job_1.gif)
-### PROGRESSION 2 | JOB DETAIL
-In this progression, your task is to display the complete job description. Keep a button called as `View Details`. This a toggle button which should toggle between hide and show details.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Check the output for your reference.
-![Image description](https://i1.faceprep.in/ProGrad/job_2-2.gif)
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-### PROGRESSION 3 | PAGES
-In this progression, your task it to set the page number. Each page consists of twenty job posts. When the post exceeds more than twenty it should go to the next page.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-Check the output for your reference.
-![Image description](https://i1.faceprep.in/ProGrad/job_3.png)
+## Learn More
 
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### PROGRESSION 4 | SEARCH FORM
-Search form is a separate component. Your task is to include the search form at the top of the HomeComponent. Based on the search filter, fetch the details and display it for the user.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-![Image description](https://i1.faceprep.in/ProGrad/job_4.png)
+### Code Splitting
 
-### PROGRESSION 5 | HOMECOMPONENT
-The home component is the parent component which embeds all other component. Please check the screenshots for your reference.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-![Image description](https://i1.faceprep.in/ProGrad/job_4.png)
-![Image description](https://i1.faceprep.in/ProGrad/job_1.gif)
-![Image description](https://i1.faceprep.in/ProGrad/job_2-2.gif)
-![Image description](https://i1.faceprep.in/ProGrad/job_3.png)
+### Analyzing the Bundle Size
 
-## Submission
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-If you didn't add, commit and push the changes you made, this is the last call. :smile:
+### Making a Progressive Web App
 
-please share your github links with your Mentors. Your Mentor's will check up your work and provide feedback. 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-## Summary
+### Advanced Configuration
 
-If you managed to do it, good job! :trophy:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-We are proud of you!
+### Deployment
 
-Happy Coding ProGrad ❤️!
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
